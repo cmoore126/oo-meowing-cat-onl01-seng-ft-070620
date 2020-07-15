@@ -4,7 +4,7 @@ class Cat
 end ## code your solution here.
 
 class Cat
-def name=(cats_name)
+  def name=(cats_name)
   @name = cats_name
 end
 
@@ -19,7 +19,7 @@ maru.name = "Maru"
 puts maru.name
 
 class Cat
-def meow
+  def meow
     puts "meow!"
- end
+  end
 end
